@@ -20,10 +20,10 @@ function App() {
       <div className='w-[100%] flex justify-center mt-[3%]'>
         <div className='w-[25%] flex flex-row overflow-x-auto scrollbar-hide sm:w-[73%]'>
           <div className='mx-[1%] w-[19rem]'>
-        <Carousel />
+        <Carousel seat={"7"} />
         </div>
         <div className='mx-[1%] w-[19rem]'>
-        <Carousel />
+        <Carousel seat={"8"} />
         </div>
         </div>
       

@@ -4,7 +4,7 @@ import Bottom from '../assets/verified.jpg'
 import Apple from '../assets/Apple.png'
 
 
-function Carousel() {
+function Carousel({seat}) {
 
     const slideLeft = () => {
         var slider = document.getElementById('slider' + rowId);
@@ -33,14 +33,14 @@ function Carousel() {
             </div>
             <div className='flex flex-col justify-center items-center'>
                 <h2 className='text-[0.8rem]'>SEAT</h2>
-                <h1>7&8</h1>
+                <h1>{seat}</h1>
             </div>
         </div>
         <div className='relative'>
-            <img src={Fak} className='absolute z-1 h-[150px] w-[100%] object-contain' />
+            <img src={Fak} className='absolute z-1 h-[150px] w-[100%] object-cover' />
             <div className='w-[100%] flex flex-col  bg-gradient-to-t from-[#000000] to-[#00000000] absolute z-3 text-white flex justify-center px-[10%] pt-[20%]'>
-                <h2 className='text-center'>TAYC - Love on Tour | Premium Seat VIP</h2>
-                <h2 className='text-center text-[0.8rem] pb-[5%]'>Wed, Dec 09, 8:00 PM • Accor arena Paris</h2>
+                <h2 className='text-center pt-[17%]'>TAYC</h2>
+                <h2 className='text-center text-[0.8rem] pb-[5%]'>Wed, Dec 09, 8:00 PM • Accor arena</h2>
             </div>
         </div>
         <div className='mt-[70%] mb-[10%] text-white w-[100%] px-[7%]'>

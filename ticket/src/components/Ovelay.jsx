@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { BsCheckCircleFill } from "react-icons/bs";
 import { motion } from "framer-motion"
-import { IoTicket } from "react-icons/io5";
+import { IoTicket, IoChevronForwardOutline } from "react-icons/io5";
 import { FcNext } from "react-icons/fc";
 import Ai from '../assets/i.svg';
 
@@ -37,7 +37,7 @@ function Ovelay() {
         <>
         <div className='h-[6rem] w-[6rem] mr-[4%] border-[1px] border-[#00000020] rounded-[10px] overflow-hidden'>
           <div className='h-[40%] w-[100%] bg-[#155fc8] text-white flex justify-center items-center'>
-            <h1>SEAT -</h1>
+            <h2>SEAT -</h2>
           </div>
           <div className='w-[100%] flex justify-center items-center my-[13%]'>
          <div className='h-[25px] w-[25px] border-[2px] rounded-[50%] flex justify-center items-center' onClick={props.click}>
@@ -54,7 +54,7 @@ function Ovelay() {
         <>
         <div className='h-[6rem] w-[6rem] border-[2px] border-[#00000020] rounded-[10px] overflow-hidden'>
           <div className='h-[40%] w-[100%] bg-[#155fc8] text-white flex justify-center items-center'>
-            <h1>SEAT -</h1>
+            <h2>SEAT -</h2>
           </div>
           <div className='w-[100%] flex justify-center items-center my-[13%]'>
          <div className='h-[25px] w-[25px] border-[2px] rounded-[50%] flex justify-center items-center' onClick={props.click}>
@@ -78,8 +78,8 @@ function Ovelay() {
             <h1 className='py-[0.8%]'>SELECT TICKETS TO TRANSFER</h1>
             <div className='w-[100%] h-[1px] bg-[#00000050]'></div>
         </div>
-        <div className='border-[1px] border-black mt-[2%] bg-[#00000007] px-[2%]  mx-[1%] rounded-[5px] flex flex-row items-center py-[6%] sm:mx-[2%]'>
-        <div className='h-[6rem] w-[6rem] bg-[#00000050] rounded-[50%] flex justify-center items-center sm:h-[2rem] w-[3rem] px-[2.5%] mr-[5%]'>
+        <div className='border-[1px] border-black mt-[3%] bg-[#00000007] px-[2%]  mx-[1%] rounded-[5px] flex flex-row  py-[6%] sm:mx-[2%] sm:py-[3%]'>
+        <div className='h-[6rem] w-[6rem] bg-[#00000060] rounded-[50%] flex justify-center items-center sm:h-[2rem] w-[3rem] px-[2.5%] mr-[5%]'>
           <img src={Ai} className='h-[50%] w-[50%] sm:h-[60%] w-[60%]' />
         </div>
         <div className=' '>
@@ -88,7 +88,7 @@ function Ovelay() {
         </div>
         <div className='flex flex-row justify-between w-[100%] px-[1%] my-[1%] sm:px-[2%] py-[5%]'>
           <div><h1 className='text-[#00000080]'>Sec VIP1, Row 2</h1></div>
-          <div className='flex flex-row items-center'><IoTicket color="#00000060"/>{" "}<h1 className=' text-[#00000080]'>2 tickets</h1></div>
+          <div className='flex flex-row items-center'><IoTicket color="#00000060"/>{" "}<h2 className=' text-[#00000080]'>2 tickets</h2></div>
         </div>
         <div className='px-[1%] flex flex-row sm:px-[2%]'>
         <Seats click={handleCheck} className='mx-[2%]'/>
@@ -96,8 +96,8 @@ function Ovelay() {
         </div>
         <div className='w-[100%] h-[1px] bg-[#00000050] my-[2%] mt-[6%] mb-[6%]'></div>
         <div className='h-[5rem] w-[100%] bg-[#00000010] px-[1%] flex flex-row justify-between mt-[2%] sm:px-[2%]'>
-          <div className='flex items-center flex-row'><h1>{`${count} selected`}</h1> </div>
-          <button className='flex flex-row items-center text-[#155fc8]'><h1>Transfer</h1> <FcNext color={"#155fc8"}/></button>
+          <div className='flex items-center flex-row'><h2>{`${count} selected`}</h2> </div>
+          <button className='flex flex-row items-center text-[#155fc8]'><h1>TRANSFER TO</h1> <IoChevronForwardOutline size={25} color={"#155fc8"}/></button>
         </div>
     </motion.div>
   )
