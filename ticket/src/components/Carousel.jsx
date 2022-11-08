@@ -18,7 +18,7 @@ function Carousel({seat}) {
 
   return (
     <div>
-        <div className='border-[1px] border-[#00000010] w-[18rem] m-[2%] rounded-[10px] overflow-hidden'>
+        <div className={`border-[1px] border-[#00000010] w-[18rem] m-[2%] rounded-[10px] overflow-hidden `}>
         <div className='flex justify-center items-center bg-[#155fc8] py-[2%] text-white'>
             <h2>Standard Ticket</h2>
         </div>

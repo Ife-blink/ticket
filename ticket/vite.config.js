@@ -6,11 +6,11 @@ import { VitePWA } from 'vite-plugin-pwa'
 export default defineConfig({
   plugins: [react(),  VitePWA({
     manifest: {
-      name: 'vite-react-ts-100',
-      short_name: 'vite-react-ts-100',
+      name: 'Ticket Master',
+      short_name: 'Ticket Master',
       start_url: '/',
       display: 'standalone',
-      background_color: '#ffffff',
+      background_color: '#026CDF',
       lang: 'en',
       scope: '/',
       icons: [
