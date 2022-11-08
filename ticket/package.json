@@ -14,7 +14,8 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
     "react-simply-carousel": "^8.4.0",
-    "tailwind-scrollbar-hide": "^1.1.7"
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "vite-plugin-pwa": "^0.13.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.22",

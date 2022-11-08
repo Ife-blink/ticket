@@ -52,7 +52,7 @@ function Ovelay() {
     const Seats1 = (props) => {
       return(
         <>
-        <div className='h-[6rem] w-[6rem] border-[2px] border-[#00000020] rounded-[10px] overflow-hidden'>
+        <div className='h-[6rem] w-[6rem] border-[1px] border-[#00000020] rounded-[10px] overflow-hidden'>
           <div className='h-[40%] w-[100%] bg-[#155fc8] text-white flex justify-center items-center'>
             <h2>SEAT -</h2>
           </div>
@@ -79,7 +79,7 @@ function Ovelay() {
             <div className='w-[100%] h-[1px] bg-[#00000050]'></div>
         </div>
         <div className='border-[1px] border-black mt-[3%] bg-[#00000007] px-[2%]  mx-[1%] rounded-[5px] flex flex-row  py-[6%] sm:mx-[2%] sm:py-[3%]'>
-        <div className='h-[6rem] w-[6rem] bg-[#00000060] rounded-[50%] flex justify-center items-center sm:h-[2rem] w-[3rem] px-[2.5%] mr-[5%]'>
+        <div className='h-[6rem] w-[6rem] bg-[#00000060] rounded-[50%] flex justify-center items-center sm:h-[30px] sm:w-[30px] px-[3%] mr-[5%]'>
           <img src={Ai} className='h-[50%] w-[50%] sm:h-[60%] w-[60%]' />
         </div>
         <div className=' '>
