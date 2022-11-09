@@ -40,7 +40,7 @@ function Carousel({seat}) {
             <img src={Fak} className='absolute z-1 h-[150px] w-[100%] object-fit' />
             <div className='w-[100%] flex flex-col  bg-gradient-to-t from-[#000000] to-[#00000000] absolute z-3 text-white flex justify-center px-[10%] pt-[20%]'>
                 <h2 className='text-center pt-[17%]'>TAYC</h2>
-                <h2 className='text-center text-[0.8rem] pb-[5%]'>Wed, Dec 09, 8:00 PM • Accor arena</h2>
+                <h2 className='text-center text-[0.8rem] pb-[5%]'>Wed, Dec 07, 8:00 PM • Accor arena</h2>
             </div>
         </div>
         <div className='mt-[70%] mb-[10%] text-white w-[100%] px-[7%]'>
