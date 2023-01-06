@@ -29,7 +29,7 @@ function Carousel({seat}) {
             </div>
             <div className='flex flex-col justify-center items-center'>
                 <h2 className='text-[0.8rem]'>ROW</h2>
-                <h1>14</h1>
+                <h1>4</h1>
             </div>
             <div className='flex flex-col justify-center items-center'>
                 <h2 className='text-[0.8rem]'>SEAT</h2>
@@ -37,10 +37,10 @@ function Carousel({seat}) {
             </div>
         </div>
         <div className='relative'>
-            <img src={Fak} className='absolute z-1 h-[150px] w-[100%] object-fill' />
+            <img src={Fak} className='absolute z-1 h-[150px] w-[100%] object-stretch' />
             <div className='w-[100%] flex flex-col  bg-gradient-to-t from-[#000000] to-[#00000000] absolute z-3 text-white flex justify-center px-[10%] pt-[20%]'>
-                <h2 className='text-center pt-[17%]'>Rosalia: MOTONAMI WORLD TOUR</h2>
-                <h2 className='text-center text-[0.8rem] pb-[5%]'>Sun, Dec 18, 9:00 PM • Accor arena</h2>
+                <h2 className='text-center pt-[17%]'>ROBBIE WILLIAMS</h2>
+                <h2 className='text-center text-[0.8rem] pb-[5%]'>Lundi,Mars 20 8:00pm -Accor arena</h2>
             </div>
         </div>
         <div className='mt-[70%] mb-[10%] text-white w-[100%] px-[7%]'>
