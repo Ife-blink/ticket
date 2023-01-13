@@ -37,7 +37,7 @@ function Carousel({seat}) {
             </div>
         </div>
         <div className='relative'>
-            <img src={Fak} className='absolute z-1 h-[150px] w-[100%] object-stretch' />
+            <img src={Fak} className='absolute z-1 h-[150px] w-[100%] object-cover' />
             <div className='w-[100%] flex flex-col  bg-gradient-to-t from-[#000000] to-[#00000000] absolute z-3 text-white flex justify-center px-[10%] pt-[20%]'>
                 <h2 className='text-center pt-[17%]'>AYA NAKAMURA</h2>
                 <h2 className='text-center text-[0.8rem] pb-[5%]'>Vendredi,Mai 26 8:00pm -Accor arena</h2>
